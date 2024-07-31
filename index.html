@@ -40,13 +40,83 @@
 
         <!-- Custom styles
     ================================================== -->
+    <!-- Custom styles
+    ================================================== -->
     <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .header-nav-wrap {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        .header-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .header-nav li {
+            margin: 0 15px;
+        }
+
         .header-nav a {
+            text-decoration: none;
             color: white;
+            font-size: 18px;
         }
 
         .header-nav a:hover {
-            color: red; /* Change this to any color you prefer for the hover state */
+            color: red;
+        }
+
+        .hero-section {
+            background-image: url('images/bg-3000x2000.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-section h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .hero-section p {
+            font-size: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            font-size: 24px;
+        }
+
+        .scroll-down {
+            position: absolute;
+            bottom: 20px;
+            font-size: 24px;
+            color: white;
         }
     </style>
 
@@ -99,7 +169,7 @@
             <!-- href="#0"：链接的href属性通常用#0表示空链接或占位链接。 -->
             <!-- <a href="Xingchao CV_En.pdf" class="btn btn--stroke btn--small" download="Xingchao_Bian_CV.pdf">Download CV</a> -->
             <a href="Xingchao CV_En.pdf" class="btn btn--stroke btn--small">Download CV</a>
-            
+
         </div> <!-- end header-content -->
 
         <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
